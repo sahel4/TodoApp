@@ -18,7 +18,7 @@ public class Todo {
     @Id // 해당 필드가 엔티티의 primary key 임을 지정. 이 필드를 기준으로 엔티티 식별, 관리
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     // primary key 값을 자동으로 생성
-    // GenerationType.IDENTITY : 데이터베이스의 자동증가를 이용하여 primary key 값 생성
+    // GenerationType.IDENTITY : 데이터베이스의 자동증가를 이용하여 primary key 값 생성..
     private Long id;
 
     private String title;
